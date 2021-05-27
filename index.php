@@ -1,8 +1,7 @@
 
 <?php
 session_start();
-	include_once "libs/maLibUtils.php";
-	include_once "libs/security.php";
+
 	include("templates/header.php");
 
 	$view = valider("view"); 
